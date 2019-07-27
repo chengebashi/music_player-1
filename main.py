@@ -5,7 +5,7 @@ import os.path
 
 SCREEN_SIZE = (800, 600)   #画出一个800*600的界面
 # 存放音乐文件的位置
-MUSIC_PATH = "F:\CloudMusic"
+MUSIC_PATH = "C:\Users\dengjun\Music\Music"
 
 def get_music(path):
     raw_filenames = os.listdir(path)  # 从文件夹来读取所有的音乐文件
